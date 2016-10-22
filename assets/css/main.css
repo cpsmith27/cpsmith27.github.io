@@ -2096,7 +2096,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../../images/eiffelTower.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2998,6 +2998,10 @@
 
 			#banner {
 				padding: 3em 2em 3em 2em;
+			}
+
+			#banner h3 {
+				font-size: 3em;
 			}
 
 		/* Sidebar */
